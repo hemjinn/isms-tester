@@ -3,7 +3,6 @@
 
 This is automatic exam program for isms
 
----
 
 ## How to use
 
