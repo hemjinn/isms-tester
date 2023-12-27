@@ -36,4 +36,4 @@ while True:
         else: 
             print("\n삐빅- 오답입니다~ XD")
             print(f"정답은 {questionNum} {questionName}\n")
-    i++
+    i+=1
