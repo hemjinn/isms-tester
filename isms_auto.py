@@ -14,11 +14,13 @@ print('''
 
 ''')
 
+i=1
+
 while True:
     questionNum = random.choice(choice) # 랜덤으로 항목 번호 뽑기
     question = random.choice(questions[questionNum]) # 랜덤으로 문제 뽑기
     questionName = data[questionNum]
-    i=1
+
 
     print("================================================================================================================")
     print(f"{i}. {question}")
