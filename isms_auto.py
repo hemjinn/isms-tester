@@ -18,9 +18,10 @@ while True:
     questionNum = random.choice(choice) # 랜덤으로 항목 번호 뽑기
     question = random.choice(questions[questionNum]) # 랜덤으로 문제 뽑기
     questionName = data[questionNum]
+    i=1
 
     print("================================================================================================================")
-    print(question)
+    print(f"{i}번 문제 {question}")
     print("================================================================================================================")
     guessNum = input("항목 번호를 입력하세요: ")
     if (guessNum == "exit"):
@@ -35,3 +36,4 @@ while True:
         else: 
             print("\n삐빅- 오답입니다~ XD")
             print(f"정답은 {questionNum} {questionName}\n")
+    i++
